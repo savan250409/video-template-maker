@@ -1,0 +1,11 @@
+{"version":1.0,
+"elements":[
+{"size":[236.0,135.0],"index":0,"key":"image_0","image":"res/images/img_0.jpg","editable":0},
+{"size":[200.0,423.0],"index":0,"key":"image_1","image":"res/images/img_1.jpg","editable":0},
+{"size":[443.0,527.0],"index":0,"key":"image_2","image":"res/images/img_2.jpg","editable":1},
+{"size":[462.0,547.0],"index":0,"key":"image_3","image":"res/images/img_3.jpg","editable":0},
+{"size":[528.0,273.0],"index":0,"key":"image_4","image":"res/images/img_4.jpg","editable":1},
+{"size":[539.0,284.0],"index":0,"key":"image_5","image":"res/images/img_5.jpg","editable":0},
+{"size":[400.0,468.0],"index":0,"key":"image_6","image":"res/images/img_6.jpg","editable":1},
+{"size":[408.0,471.0],"index":0,"key":"image_7","image":"res/images/img_7.jpg","editable":0},
+{"size":[720.0,1280.0],"index":0,"key":"image_8","image":"res/images/img_8.jpg","editable":0}]}

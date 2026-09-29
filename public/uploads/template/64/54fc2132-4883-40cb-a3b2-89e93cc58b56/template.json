@@ -1,0 +1,7 @@
+{"version":1.0,
+"elements":[
+{"size":[250.0,300.0],"index":0,"key":"image_0","image":"res/images/img_0.png","editable":1},
+{"size":[250.0,300.0],"index":0,"key":"image_1","image":"res/images/img_1.png","editable":1},
+{"size":[250.0,300.0],"index":0,"key":"image_2","image":"res/images/img_2.png","editable":1},
+{"size":[250.0,300.0],"index":0,"key":"image_3","image":"res/images/img_3.png","editable":1},
+{"size":[720.0,1280.0],"index":0,"key":"image_4","image":"res/images/img_4.png","editable":1}]}

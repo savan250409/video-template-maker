@@ -1,0 +1,32 @@
+# 1. Home screen — all categories, each with up to 6 templates, plus "Latest"
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getTemplatesByCategory"
+
+# 2. All categories  (type = template | music | banner)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getAllCategory?type=template"
+
+# 3. Templates in a category  (cat = 1..19 ; type = latest | trending | random)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getTemplates?cat=4&type=latest&page=1&limit=10"
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getTemplates?cat=4&type=trending&page=1&limit=10"
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getTemplates?cat=4&type=random&page=1&limit=10"
+
+# 3b. Special feeds: cat=-1 = most created (popular), cat=-2 = newest (type ignored)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getTemplates?cat=-1&page=1&limit=10"
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getTemplates?cat=-2&page=1&limit=10"
+
+# 4. Music list  (cat_id = -1 for all, or 20 for the "Trending" music category)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getAllMusicList?cat_id=-1&page=1&limit=10"
+
+# 5. Banners
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getAllBanners"
+
+# 6. App settings (ads / update / home / legal)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/getAllSettings"
+
+# 7. Increment a template's view count  (id = 1..134)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/addViews?id=1"
+
+# 8. Increment a template's "created" count
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" "http://127.0.0.1:8000/addCreated?id=1"
+
+# 9. Report a template  (POST; reason required, email & message optional)
+curl -H "Authorization: 9ZCX1dr6Oyvi1SIFb4n6FVqEBrfg4uoD" -X POST "http://127.0.0.1:8000/addReport" -d "id=1&reason=Inappropriate&email=user@test.com&message=Please review"

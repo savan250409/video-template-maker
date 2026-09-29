@@ -1,0 +1,13 @@
+{"version":1.0,
+"elements":[
+{"size":[248.0,245.0],"index":0,"key":"image_0","image":"res/images/img_0.png","editable":0},
+{"size":[705.0,213.0],"index":0,"key":"image_1","image":"res/images/img_1.png","editable":0},
+{"size":[650.0,650.0],"index":0,"key":"image_2","image":"res/images/img_2.png","editable":1},
+{"size":[550.0,550.0],"index":0,"key":"image_3","image":"res/images/img_3.png","editable":1},
+{"size":[650.0,650.0],"index":0,"key":"image_4","image":"res/images/img_4.png","editable":1},
+{"size":[650.0,650.0],"index":0,"key":"image_5","image":"res/images/img_5.png","editable":1},
+{"size":[550.0,550.0],"index":0,"key":"image_6","image":"res/images/img_6.png","editable":1},
+{"size":[650.0,650.0],"index":0,"key":"image_7","image":"res/images/img_7.png","editable":1},
+{"size":[550.0,550.0],"index":0,"key":"image_8","image":"res/images/img_8.png","editable":1},
+{"size":[650.0,650.0],"index":0,"key":"image_9","image":"res/images/img_9.png","editable":1},
+{"size":[182.0,182.0],"index":0,"key":"image_10","image":"res/images/img_10.png","editable":0}]}

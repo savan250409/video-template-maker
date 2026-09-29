@@ -1,0 +1,5 @@
+{"version":1.0,
+"elements":[
+{"size":[1080.0,929.0],"index":0,"key":"image_0","image":"res/images/img_0.jpg","editable":0},
+{"size":[1080.0,1322.0],"index":0,"key":"image_1","image":"res/images/img_1.jpg","editable":0},
+{"size":[700.0,1050.0],"index":0,"key":"image_2","image":"res/images/img_2.jpg","editable":1}]}
