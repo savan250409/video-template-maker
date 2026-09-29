@@ -1,0 +1,32 @@
+[
+    {
+        "id": 12,
+        "category_id": null,
+        "banner_name": "Contact us",
+        "banner_url": "https://wa.me/+918849714934?text=Hey%2C+I+am+interested+in+Pixstory+App",
+        "banner_category": null,
+        "banner_type": "app-url",
+        "banner_image": "https://pixstory.growwth.in//storage/uploads/banner/b4b58d3a-919d-425e-bfbf-8b83de3ce7de.png",
+        "status": true
+    },
+    {
+        "id": 11,
+        "category_id": 58,
+        "banner_name": "Maha Shivratri",
+        "banner_url": null,
+        "banner_category": "Maha Shivratri",
+        "banner_type": "category",
+        "banner_image": "https://pixstory.growwth.in//storage/uploads/banner/e9d31a9c-f44a-46bb-aa5a-2ac9cec86710.png",
+        "status": true
+    },
+    {
+        "id": 7,
+        "category_id": 47,
+        "banner_name": "Birthday",
+        "banner_url": "https://youtube.com/shorts/BWspeoVwDTY?si=uqqKrSA2XNTi-Zaj",
+        "banner_category": "Love",
+        "banner_type": "category",
+        "banner_image": "https://pixstory.growwth.in//storage/uploads/banner/25f4acc9-9e95-498f-9d9c-dac5f43608c4.png",
+        "status": true
+    }
+]

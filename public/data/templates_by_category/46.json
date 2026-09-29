@@ -1,0 +1,38 @@
+[
+    {
+        "id": 144,
+        "code": "movies _03",
+        "category": 46,
+        "group": "play",
+        "no_of_image": null,
+        "total_editable": null,
+        "title": "Movie 03",
+        "thumb_link": "https://pixstory.growwth.in//storage/uploads/template/thumbnail/77d95fde-c5a9-488e-8656-c2a23fd862ca.jpg",
+        "zip_link": "https://pixstory.growwth.in//storage/uploads/template/zip/movies _03.zip",
+        "views": 90,
+        "created": 28,
+        "premium": false,
+        "type": "video",
+        "json": null,
+        "height": null,
+        "width": null
+    },
+    {
+        "id": 143,
+        "code": "movies _02_01",
+        "category": 46,
+        "group": "play",
+        "no_of_image": null,
+        "total_editable": null,
+        "title": "Movie 02",
+        "thumb_link": "https://pixstory.growwth.in//storage/uploads/template/thumbnail/243c2ba5-e703-47b4-8c95-f653b64c19bc.jpg",
+        "zip_link": "https://pixstory.growwth.in//storage/uploads/template/zip/movies _02_01.zip",
+        "views": 106,
+        "created": 30,
+        "premium": false,
+        "type": "video",
+        "json": null,
+        "height": null,
+        "width": null
+    }
+]

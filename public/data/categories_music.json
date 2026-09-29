@@ -1,0 +1,23 @@
+[
+    {
+        "id": 55,
+        "type": "music",
+        "category": "Sad",
+        "template_type": null,
+        "image_url": "https://pixstory.growwth.in//storage/uploads/category/music/"
+    },
+    {
+        "id": 54,
+        "type": "music",
+        "category": "Love",
+        "template_type": null,
+        "image_url": "https://pixstory.growwth.in//storage/uploads/category/music/"
+    },
+    {
+        "id": 56,
+        "type": "music",
+        "category": "Birthday",
+        "template_type": null,
+        "image_url": "https://pixstory.growwth.in//storage/uploads/category/music/"
+    }
+]
